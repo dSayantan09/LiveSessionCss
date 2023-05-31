@@ -1,0 +1,199 @@
+body {
+    margin: 0px;
+    height: 3000px;
+    overflow-x: hidden;
+}
+
+header {
+    border-bottom: 1px solid lightgray;
+    background-color: lightblue;
+    position: sticky;
+    top: 0px;
+    /* width: 100%; */
+    /* position: fixed;  */
+    /* bottom: 0px;*/
+    /* top:0px; */
+    /* z-index: -1; */
+    z-index: 10;
+
+}
+
+.logo_div {
+
+    width: 27%;
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin-left: 35px;
+
+}
+
+.menu_div {
+
+    width: 50%;
+    display: inline-block;
+    /* border: 2px solid red; */
+    /* text-align: center; */
+
+}
+
+.icon_div {
+
+    width: 20%;
+    display: inline-block;
+    /* border: 2px solid red; */
+
+}
+
+.logo_div img {
+    width: 150px;
+}
+
+.menu_div ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+
+
+}
+
+.menu_div ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.icon_div i {
+    font-size: 20px;
+    /* border: 2px solid red; */
+    padding: 20px;
+}
+
+.demo_data {
+    height: 150px;
+    background: lightcoral;
+    border: 3px solid black;
+    padding: 20px;
+    font-size: 40px;
+    margin-top: 100px;
+
+}
+
+.main_div {
+    height: 300px;
+
+    margin: 100px;
+    background-color: pink;
+    border: 4px solid cadetblue;
+    position: relative;
+    z-index: 0;
+}
+
+.child_div {
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    border: 3px solid cadetblue;
+    position: absolute;
+    /* bottom: -50px;
+    right: -50px; */
+    left: -40px;
+    top: 70px;
+
+
+}
+
+.abc {
+    padding: 30px;
+    border: 3px solid navy;
+    margin: 20px;
+    font-size: 40px;
+    background-color: rgb(20, 199, 253);
+}
+
+.main_box {
+    position: relative;
+    border: 5px solid navy;
+    height: 600px;
+}
+
+.abs1 {
+    position: absolute;
+    width: 10%;
+    height: 500px;
+    left: 20px;
+    z-index: 1;
+}
+
+.abs2 {
+    position: absolute;
+    width: 90%;
+    top: 100px;
+    z-index: 3;
+
+}
+
+.abs3 {
+    position: absolute;
+    width: 10%;
+    height: 500px;
+    right: 20px;
+    z-index: 3;
+
+}
+
+.abs4 {
+    position: absolute;
+    width: 90%;
+    top: 300px;
+    z-index: 2;
+}
+
+
+
+
+.pqr {
+    border: 3px solid black;
+    padding: 20px;
+    margin: 40px;
+
+}
+
+.pqr img {
+    height: 500px;
+    width: 600px;
+}
+
+.div1 img {
+    float: right;
+}
+
+.div2 img {
+    float: right;
+}
+
+.div2 {
+
+    overflow: hidden;
+}
+
+.text_div {
+    padding: 30px;
+    font-size: 30px;
+    margin: 30px;
+    height: 380px;
+    overflow: scroll;
+    overflow: auto;
+    overflow-y: scroll;
+    /* overflow-x: scroll; */
+    /* overflow: hidden; */
+    width: 300px;
+    background-color: yellowgreen;
+}
+
+.text_div img {
+    height: 200px;
+    width: 300px;
+
+}
