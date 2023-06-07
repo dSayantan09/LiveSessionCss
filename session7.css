@@ -1,0 +1,123 @@
+/* .transform_css {
+    height: 200px;
+    width: 300px;
+    background-color: pink;
+    margin: 100px;
+    margin: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: transform 5s;
+} 
+
+.transform_css:hover {
+    transform: translate(150px, 30px);
+    transform: translateX(40px);
+    transform: translateY(40px); 
+    transform: scale(3);
+    transform: scaleX(2);
+    transform: scaleY(4); 
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+    transform: rotate(360deg);
+    
+} */
+
+/* .container {
+    border: 4px solid red;
+    height: 400px;
+    width: 500px;
+    padding: 20px;
+    margin: 30px;
+    overflow: hidden;
+}
+
+.container img {
+    height: 400px;
+    width: 500px;
+    transition: transform 5s;
+}
+
+.container:hover img {
+    transform: scale(2);
+} */
+
+/* .div_2 {
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    margin: 200px auto;
+    transition: transform 5s;
+    transform-origin: top left;
+    transform-origin: bottom left;
+    transform-origin: top right;
+    transform-origin: bottom right;
+}
+
+.div_2:hover {
+    transform: rotate(360deg);
+} */
+
+/* ul {
+    display: flex;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+ul li::before {
+    content: '';
+    width: 5px;
+    height: 40px;
+    background-color: greenyellow;
+    transform: scaleY(0);
+    transition: transform 1s;
+    transform-origin: top;
+}
+
+ul li::after {
+    content: '';
+    width: 5px;
+    height: 40px;
+    background-color: greenyellow;
+    transform: scaleY(0);
+    transition: transform 1s;
+    transform-origin: bottom;
+}
+
+ul li:hover::before,
+ul li:hover::after {
+    transform: scaleY(1);
+} */
+
+.ul_css {
+    display: flex;
+}
+
+.ul_css li {
+    list-style-type: none;
+    margin: 50px;
+    padding: 10px;
+    position: relative;
+}
+
+.ul_css li::after {
+    content: '';
+    width: 55px;
+    height: 20px;
+    background-color: lightcoral;
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+    transform: scaleX(0);
+    transition: transform 1s;
+    transform-origin: left;
+}
+
+.ul_css li:hover::after {
+    transform: scaleX(1);
+}
