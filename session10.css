@@ -1,0 +1,260 @@
+/* h1{
+    font-size: 100px;
+    color: red;
+}
+.d_flex{
+    background-color: lightblue;
+    height: 60vh;
+    background-image:url(img1.jpg) ;
+    padding: 20px;
+    display: flex;
+    background-size: cover;
+   
+
+}
+.inner_div{
+    background-color: navy;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+} */
+
+/*320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV.*/
+
+
+/* @media only screen and (max-width:768px) and (min-width:320px){
+    h1{
+        color: green;
+        font-size: 30px;
+    }
+    .d_flex{
+        flex-direction: column;
+        height: 90vh;
+       
+    }
+    .inner_div{
+        font-size: 20px;
+    }
+}
+
+.img_style{
+    width: 50%;
+} */
+
+/* section 1 : navbar  */
+body{
+    margin: 0px;
+}
+.header{
+    background-color:#fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.223);
+    font-family: "Raleway", sans-serif;
+   position: fixed;
+   z-index: 2;
+   width: 100%;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style-type: none;
+    padding: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.logo_div a{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+.header button{
+    padding: 12px 35px;
+    background-color:#1977cc; 
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+   
+}
+
+/* section 1 : navbar  */
+
+/* WELCOME TO MEDILAB */
+
+.img_box{
+    background-image: url(hero-bg.jpg);
+    height: 70vh;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+.text_box h1{
+    font-size: 48px;
+    color: #2d4964;
+    line-height: 0.5;
+    
+}
+.text_box h2{
+    color: #2d4964;
+    font-size:24px;
+    line-height: 2;
+
+}
+
+.text_box button{
+    padding: 12px 35px;
+    background-color:#1977cc; 
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+}
+
+
+
+.d_flex{
+    display: flex;
+   justify-content: center;
+   position: absolute;
+   /* top: 0px; */
+   bottom: -340px;
+   width: 100%;
+   
+}
+
+.blue_box{
+    background-color: #1977cc;
+    color: white;
+    font-family:  "Raleway", sans-serif;
+    width: 370px;
+    padding: 30px;
+    margin: 15px;   
+    font-size: 40px;
+}
+
+.blue_box p{
+    font-size: 18px;
+}
+.blue_box button{
+    padding: 12px 35px;
+    background-color:#fff; 
+    color: #1977cc;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+}
+.white_box i{
+    color: #1977cc;
+    font-size: 30px;
+}
+.white_box{
+    font-family:  "Raleway", sans-serif;
+    width: 220px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    height:220px;
+    padding: 40px 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.white_box h3{
+    font-size: 25px;
+}
+
+main{
+    position: relative;
+    top: 95px;
+}
+
+/* WELCOME TO MEDILAB */
+
+
+/* header media */
+
+@media only screen and (max-width:768px) and (min-width:320px){
+
+.header{
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+}
+.menu ul li{
+    padding: 10px;
+}
+.menu ul li a{
+    font-size: 15px;
+}
+.menu ul{
+    padding: 0px;
+}
+.logo_div a{
+    font-size: 20px;
+}
+.header button{
+    padding: 10px 20px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.text_box h1{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.text_box h2{
+    font-size: 13px;
+
+}
+.img_box{
+    height: 100vh;
+    
+}
+}
+
+/* header media */
+
+/* main media */
+
+@media only screen and (max-width:768px) and (min-width:320px){
+    main{
+        position: static;
+    }
+    .d_flex{
+        position: static;
+        flex-direction: column;
+    }
+    .blue_box{
+        width: 220px;
+        margin: 10px auto;
+    }
+    .blue_box h3{
+        font-size: 20px;
+    }
+    .white_box{
+        margin: 10px auto;
+    }
+    .blue_box p{
+        font-size: 15px;
+    }
+}
+
+/* main media */
